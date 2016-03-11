@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GPA CALCULATOR</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1694989574091611</string>
+    <string name="select">Select your college:</string>
+    <string name="title_activity_dept">DeptActivity</string>
+    <string name="title_activity_ceg">CEGActivity</string>
+    <string name="title_activity_mit">MITActivity</string>
+    <string name="title_activity_act">ACTActivity</string>
+    <string name="title_activity_sap">SAPActivity</string>
+    <string name="title_activity_ece">ECEActivity</string>
+    <string name="title_activity_cse">CSEActivity</string>
+    <string name="title_activity_it">ITActivity</string>
+    <string name="title_activity_mech">MECHActivity</string>
+    <string name="title_activity_eee">EEEActivity</string>
+    <string name="title_activity_agri">AGRIActivity</string>
+    <string name="title_activity_civil">CIVILActivity</string>
+    <string name="title_activity_geo">GEOActivity</string>
+    <string name="title_activity_ceramic">CERAMICActivity</string>
+    <string name="title_activity_textile">TEXTILEActivity</string>
+    <string name="title_activity_foodt">FOODTActivity</string>
+    <string name="title_activity_chemical">CHEMICALActivity</string>
+    <string name="title_activity_petroleum">PETROLEUMActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_leathert">LEATHERTActivity</string>
+    <string name="title_activity_pharmacy">PHARMACYActivity</string>
+    <string name="title_activity_biotech">BIOTECHActivity</string>
+    <string name="title_activity_barch">BARCHActivity</string>
+</resources>

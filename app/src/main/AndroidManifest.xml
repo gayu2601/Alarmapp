@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.alarmapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".DeptActivity"
+            android:label="@string/title_activity_dept"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.user.alarmapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CEGActivity"
+            android:label="@string/title_activity_ceg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MITActivity"
+            android:label="@string/title_activity_mit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ACTActivity"
+            android:label="@string/title_activity_act"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SAPActivity"
+            android:label="@string/title_activity_sap"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECEActivity"
+            android:label="@string/title_activity_ece"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CSEActivity"
+            android:label="@string/title_activity_cse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ITActivity"
+            android:label="@string/title_activity_it"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MECHActivity"
+            android:label="@string/title_activity_mech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EEEActivity"
+            android:label="@string/title_activity_eee"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AGRIActivity"
+            android:label="@string/title_activity_agri"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CIVILActivity"
+            android:label="@string/title_activity_civil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GEOActivity"
+            android:label="@string/title_activity_geo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CERAMICActivity"
+            android:label="@string/title_activity_ceramic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TEXTILEActivity"
+            android:label="@string/title_activity_textile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FOODTActivity"
+            android:label="@string/title_activity_foodt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CHEMICALActivity"
+            android:label="@string/title_activity_chemical"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PETROLEUMActivity"
+            android:label="@string/title_activity_petroleum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LEATHERTActivity"
+            android:label="@string/title_activity_leathert"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PHARMACYActivity"
+            android:label="@string/title_activity_pharmacy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BIOTECHActivity"
+            android:label="@string/title_activity_biotech"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".BARCHActivity"
+            android:label="@string/title_activity_barch"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
